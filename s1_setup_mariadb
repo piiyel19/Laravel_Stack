@@ -1,0 +1,53 @@
+1 - Please setup nginx 
+
+2 - run command : 
+sudo apt update
+
+3 - run command : 
+sudo apt install mariadb-server
+
+4 - check status / run command : 
+sudo systemctl status mariadb
+
+5 - check version / run command : 
+sudo systemctl status mariadb
+
+6 - setup security / run command : 
+sudo mysql_secure_installation
+
+______________________________________
+
+7 - Connect Console Mysql : 
+ mysql -u root -p
+ 
+ 
+8 - Run Command : 
+Show Databases 
+
+
+9 - Run Command : 
+Use {namaTable};
+
+10 - Run Command : 
+Show tables; 
+
+11 - Create databases / Run Command :
+
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    PRIMARY KEY (ID)
+);
+
+
+12 - Test Run / Run Command : 
+select * from {namaTable};
+
+
+13 - Check columns / Run Command : 
+DESCRIBE {namaTable};
+
+
+_________________________________________
